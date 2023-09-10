@@ -1,4 +1,4 @@
-//Objects pratice;
+/*//Objects pratice;
 type cartype={colour:string,modelYear:number,compny:string,isUsed:boolean};
 var cars:cartype[]=[{
     colour:"black",
@@ -16,20 +16,21 @@ for (let index = 0; index < cars.length; index++) {
     console.log(cars[index].compny);
     console.log(cars[index].colour);
 
-}
+}*/
 
 //Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
-var userName:string= "abdullah";
+var userName:string= "abdullah mazhar";
  var upperCase= userName.toUpperCase();
 console.log(upperCase);
 var userName1:string="HASNAIN";
 var lowerCase = userName1.toLowerCase();
 console.log(lowerCase);
 //fail to write "titlecase".
+console.log(userName[0].toUpperCase()+userName.slice(1));
 
 
 
-//Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner
+/*//Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner
 var list:string[]=["ali","hassan","umar"];
 list.forEach((name)=>{
     console.log(`${name} you are invited on dinner`);
@@ -199,4 +200,4 @@ function favorite_fruits() {
         
     }
 };
-favorite_fruits();
+favorite_fruits();*/
