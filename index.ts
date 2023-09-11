@@ -16,7 +16,7 @@ for (let index = 0; index < cars.length; index++) {
     console.log(cars[index].compny);
     console.log(cars[index].colour);
 
-}*/
+}
 
 //Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
 var userName:string= "abdullah mazhar";
@@ -25,12 +25,8 @@ console.log(upperCase);
 var userName1:string="HASNAIN";
 var lowerCase = userName1.toLowerCase();
 console.log(lowerCase);
-//fail to write "titlecase".
 console.log(userName[0].toUpperCase()+userName.slice(1));
-
-
-
-/*//Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner
+//Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner
 var list:string[]=["ali","hassan","umar"];
 list.forEach((name)=>{
     console.log(`${name} you are invited on dinner`);
@@ -200,4 +196,40 @@ function favorite_fruits() {
         
     }
 };
-favorite_fruits();*/
+favorite_fruits();
+//Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
+let userName2:string[]=["admin","ali","hamza","umar","talha"];
+for (let index = 0; index < userName2.length; index++) {
+    console.log(userName2[index],"=>","Thanks For Logging In.");
+    
+};
+for ( let userName of userName2) {
+    if (userName==="admin") {
+        //Special Gretting For Admin.
+        console.log("Hello Admin would you like to see status report");
+        
+    }else{
+        //Generic Gretting For Other Users.
+        console.log(`Hello ${userName} thanks for logging`);
+        
+    }
+        
+    }
+    //No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
+//If the list is empty, print the message We need to find some users!
+// Remove all of the usernames from your array, and make sure the correct message is printed.
+    let userName3:string[]=["ali","hamza","umar","hassan"];
+    if (userName3.length==0) {
+        console.log("We need to find some users");
+        
+    }else{
+        console.log("user are exist in array");
+        
+    };*/
+    //Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
+//Make a list of five or more usernames called current_users.
+
+//Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
+   //let old_users:string[]=["umer","talha","hassan","hassnain","haseeb"];
+   let numbers:number[]=[1,2,3,4,5,6,7,8,9];
+   
