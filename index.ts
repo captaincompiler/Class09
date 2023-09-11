@@ -1,4 +1,4 @@
-/*//Objects pratice;
+//Objects pratice;
 type cartype={colour:string,modelYear:number,compny:string,isUsed:boolean};
 var cars:cartype[]=[{
     colour:"black",
@@ -225,7 +225,7 @@ for ( let userName of userName2) {
     }else{
         console.log("user are exist in array");
         
-    };*/
+    };
     //Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 //Make a list of five or more usernames called current_users.
 
