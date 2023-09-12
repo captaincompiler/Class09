@@ -232,4 +232,25 @@ for ( let userName of userName2) {
 //Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
    //let old_users:string[]=["umer","talha","hassan","hassnain","haseeb"];
    let numbers:number[]=[1,2,3,4,5,6,7,8,9];
+   for(let number of numbers){
+    let notation:string="th"
+    if (number===1) {
+        notation="st"
+    }else if (number===2) {
+        notation="nd"
+    }else if (number===3) {
+        notation="rd"
+    }
+    console.log(`${number}${notation}`);
+    
+   };
+   //Pizzas: Think of at least three kinds of your favorite pizza. Store these pizza names in a array, and then use a for loop to print the name of each pizza
+   let favPizza:string[]=["lazania","stuffer","kabab crust"];
+   for (let index = 0; index < favPizza.length; index++) {
+    console.log(favPizza[index]);
+    console.log(`I like ${favPizza[index]} pizza`);
+
+   };
+   console.log(`My favourite fast food is pizza. I really likes ${favPizza}`);
+   
    
