@@ -228,7 +228,19 @@ for ( let userName of userName2) {
     };
     //Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 //Make a list of five or more usernames called current_users.
-
+let current_users:string[]=["hassan","umar","ali","hasnain","talha"];
+let new_users:string[]=["HASSAN","taha","naveed","afaq","fahad"];
+let current_user=current_users.map((current_users)=>current_users.toLowerCase());
+let new_user = new_users.map((new_user)=>new_user.toLowerCase());
+for(let user of new_user){
+    if (new_user===current_user) {
+        console.log(`the username ${new_user} is already taken`);
+        
+    }else{
+        console.log(`the username ${new_user} is available`);
+        
+    }
+}
 //Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
    //let old_users:string[]=["umer","talha","hassan","hassnain","haseeb"];
    let numbers:number[]=[1,2,3,4,5,6,7,8,9];
@@ -253,4 +265,20 @@ for ( let userName of userName2) {
    };
    console.log(`My favourite fast food is pizza. I really likes ${favPizza}`);
    
-   
+//City Names: Write a function called city_country() that takes in the name of a city and its country. The function should return a string formatted like this:
+//"Lahore, Pakistan"
+//Call your function with at least three city-country pairs, and print the value that’s returned
+function city_country(city:string,country:string) {
+    return`${city},${country}`
+};
+let cities=[
+    ["Lahore","Pakistan"],
+    ["Paris","France"],
+    ["Tokyo","Japan"]
+];
+for(let city of cities){
+    console.log(city_country(city[0],city[1]))
+    
+};
+
+  
