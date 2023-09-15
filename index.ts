@@ -280,5 +280,64 @@ for(let city of cities){
     console.log(city_country(city[0],city[1]))
     
 };
+//Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
+let listOfRivers:string[]=["river of chenab","river of jehlum","river if sindh",];
+let listOfMountain:string[]=["mounteverst","k2","koh-e-himaliya","ganga choti"];
+let listOfCity:string[]=["london","washing DC","istanbul","faisalabad"];
+let listOfLanguage:string[]=["english","french","urdu","punjabi","farsi"];
 
-  
+//They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items
+type mountaintype={name:string,height:number,location:string}
+let mountains:mountaintype []=[
+    {
+        name:"K2",
+        height:8611 ,
+        location:"pakistan"
+    },{
+        name:"mounteverst",
+        height:8818,
+        location:"china"
+    },{
+        name:"kho-e-himaliya",
+        height:9670,
+        location:"pakistan"
+    },{
+        name:"ganga choti",
+        height:7895,
+        location:"kashmir"
+    }
+];
+
+type rivertype={name:string,location:string}
+let river:rivertype []=[
+    {
+        name:"chenab",
+        location:"multan"
+    },{
+        name:"jehlum",
+        location:"jehlum"
+    },{
+        name:"sindh",
+        location:"sindh"
+    }
+];
+
+type citytype={name:string,countryname:string}
+let city:citytype []=[
+    {
+        name:"london",
+        countryname:"england"
+    },{
+        name:"washington DC",
+        countryname:"america"
+    },{
+        name:"istanbul",
+        countryname:"turky"
+    },{
+        name:"faisalabad",
+        countryname:"pakistan"
+    }
+];
+
+
+
